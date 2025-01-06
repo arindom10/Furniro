@@ -7,12 +7,18 @@ const Navbar = () => {
     <nav className="flex justify-between items-center px-6 py-4 bg-[#ffffff] shadow-md">
       {/* Left: Logo */}
       <div className="flex items-center">
-        <img
-          src="https://i.ibb.co/FJtY9Dv/Meubel-House-Logos-05.png"
-          alt="Furniro Logo"
-          className="h-10"
-        />
-        <h1 className="ml-2 text-5xl font-semibold text-gray-800">Furniro</h1>
+        <a href="/">
+          <img
+            src="https://i.ibb.co/FJtY9Dv/Meubel-House-Logos-05.png"
+            alt="Furniro Logo"
+            className="h-10"
+          />
+        </a>
+        <a href="/">
+          <h1 className="ml-2 text-5xl font-semibold text-[#000000]">
+            Furniro
+          </h1>
+        </a>
       </div>
 
       {/* Middle: Navigation Links */}
@@ -68,11 +74,11 @@ const Navbar = () => {
       </ul>
 
       {/* Right: Icons */}
-      <div className="flex space-x-4 text-gray-600 text-2xl">
-        <i className="ri-user-3-line cursor-pointer hover:text-black"></i>
-        <i className="ri-search-line cursor-pointer hover:text-black"></i>
-        <i className="ri-heart-3-line cursor-pointer hover:text-black"></i>
-        <i className="ri-shopping-cart-line cursor-pointer hover:text-black"></i>
+      <div className="flex space-x-4  text-2xl">
+        <i className="ri-user-3-line cursor-pointer text-[#000000] "></i>
+        <i className="ri-search-line cursor-pointer text-[#000000] "></i>
+        <i className="ri-heart-3-line cursor-pointer text-[#000000] "></i>
+        <i className="ri-shopping-cart-line cursor-pointer text-[#000000] "></i>
       </div>
     </nav>
   );
