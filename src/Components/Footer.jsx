@@ -7,15 +7,15 @@ const Footer = () => {
           <div>
             <h2 className="text-xl font-bold mb-2">Funiro.</h2>
             <p className="text-gray-600">
-              400 University Drive Suite 200 Coral Gables, <br />
-              FL 33134 USA
+              Siam Monzil, 222/3, Road#02, Agargaon, <br />
+              West Agargaon, Dhaka, Bangladesh
             </p>
           </div>
 
           {/* Links */}
           <div>
             <h3 className="font-bold mb-2">Links</h3>
-            <ul className="text-gray-600 space-y-1">
+            <ul className="text-gray-600 space-y-1 cursor-pointer">
               <li>Home</li>
               <li>Shop</li>
               <li>About</li>
@@ -50,7 +50,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-6 text-center text-gray-600 text-sm">
-          2023 Funiro. All rights reserved
+          @2025 Funiro. All rights reserved
         </div>
       </div>
     </footer>
