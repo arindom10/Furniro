@@ -1,5 +1,6 @@
 import Banner from "./Banner";
 import BrowseTheRange from "./BrowseTheRange";
+import InspirationSection from "./InspirationSection";
 import OurProducts from "./OurProducts";
 
 const Home = () => {
@@ -7,7 +8,8 @@ const Home = () => {
     <div>
       <Banner />
       <BrowseTheRange />
-      <OurProducts />
+      <OurProducts isShopPage={false} />
+      <InspirationSection />
     </div>
   );
 };

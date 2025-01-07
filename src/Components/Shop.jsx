@@ -3,7 +3,7 @@ import OurProducts from "./OurProducts";
 const Shop = () => {
   return (
     <div>
-      <OurProducts />
+      <OurProducts isShopPage={true} />
     </div>
   );
 };
