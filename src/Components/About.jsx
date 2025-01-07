@@ -37,7 +37,7 @@ const About = () => {
         </div>
 
         {/* Team Section */}
-        <div className="text-center">
+        <div className="text-center cursor-pointer">
           <h2 className="text-4xl font-bold text-gray-800 mb-6">
             Meet Our Team
           </h2>

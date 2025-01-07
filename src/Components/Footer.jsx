@@ -15,12 +15,12 @@ const Footer = () => {
           {/* Links */}
           <div>
             <h3 className="font-bold mb-2">Links</h3>
-            <ul className="text-gray-600 space-y-1 cursor-pointer">
-              <li>Home</li>
-              <li>Shop</li>
-              <li>About</li>
-              <li>Contact</li>
-            </ul>
+            <div className="text-gray-600 space-y-1 cursor-pointer flex flex-col">
+              <a href="/">Home</a>
+              <a href="/shop">Shop</a>
+              <a href="/about">About</a>
+              <a href="/contact">Contact</a>
+            </div>
           </div>
 
           {/* Help */}
