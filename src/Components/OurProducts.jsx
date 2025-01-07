@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FaHeart, FaShareAlt, FaExchangeAlt } from "react-icons/fa";
 
-const OurProducts = () => {
+const OurProducts = ({ isShopPage }) => {
   const products = [
     {
       id: 1,
@@ -72,7 +72,8 @@ const OurProducts = () => {
 
   const [showAll, setShowAll] = useState(false);
 
-  const displayedProducts = showAll ? products : products.slice(0, 8);
+  const displayedProducts =
+    showAll || isShopPage ? products : products.slice(0, 8);
 
   return (
     <section className="bg-white py-12">
@@ -105,35 +106,36 @@ const OurProducts = () => {
 
               {/* Hover Overlay */}
               <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center rounded-lg">
-                <button className="bg-white text-[#B88E2F] font-medium px-4 py-2 rounded shadow hover:bg-gray-200 mb-4">
+                <button className="bg-white text-black font-medium px-4 py-2 rounded shadow hover:bg-gray-200 mb-4">
                   Add to Cart
                 </button>
                 <div className="flex space-x-6 text-white text-xl">
-                  <button className="hover:text-gray-400 flex items-center">
+                  <button className="hover:text-gray-400">
                     <FaShareAlt />
-                    Share
                   </button>
-                  <button className="hover:text-gray-400 flex items-center">
+                  <button className="hover:text-gray-400">
                     <FaExchangeAlt />
-                    Compare
                   </button>
-                  <button className="hover:text-gray-400 flex items-center">
+                  <button className="hover:text-gray-400">
                     <FaHeart />
-                    Like
                   </button>
                 </div>
               </div>
             </div>
           ))}
         </div>
-        {!showAll && (
+
+        {/* Show More Button */}
+        {!isShopPage && !showAll && (
           <div className="text-center mt-8">
-            <button
-              onClick={() => setShowAll(true)}
-              className="inline-block px-6 py-2 bg-[#FFFFFF] text-[#B88E2F] font-medium rounded transition"
-            >
-              Show More
-            </button>
+            <a href="/shop">
+              <button
+                onClick={() => setShowAll(true)}
+                className="inline-block px-6 py-2 bg-[#FFFFFF] text-[#B88E2F] font-medium rounded transition"
+              >
+                Show More
+              </button>
+            </a>
           </div>
         )}
       </div>

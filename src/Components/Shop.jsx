@@ -1,7 +1,11 @@
-import React from "react";
+import OurProducts from "./OurProducts";
 
 const Shop = () => {
-  return <div>Shop</div>;
+  return (
+    <div>
+      <OurProducts />
+    </div>
+  );
 };
 
 export default Shop;
