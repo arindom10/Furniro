@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FaHeart, FaShareAlt, FaExchangeAlt } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const OurProducts = ({ isShopPage }) => {
   const products = [
@@ -128,14 +129,14 @@ const OurProducts = ({ isShopPage }) => {
         {/* Show More Button */}
         {!isShopPage && !showAll && (
           <div className="text-center mt-8">
-            <a href="/shop">
+            <Link to="/shop">
               <button
                 onClick={() => setShowAll(true)}
                 className="inline-block px-6 py-2 bg-[#FFFFFF] text-[#B88E2F] font-medium rounded transition"
               >
                 Show More
               </button>
-            </a>
+            </Link>
           </div>
         )}
       </div>
