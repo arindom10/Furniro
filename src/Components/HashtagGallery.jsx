@@ -1,5 +1,3 @@
-import React from "react";
-
 const HashtagGallery = () => {
   const images = [
     { id: 1, src: "https://i.ibb.co/3T6cqvT/Rectangle-44.png" },
@@ -14,7 +12,7 @@ const HashtagGallery = () => {
   ];
 
   return (
-    <section className="bg-[#F8F8F8] py-16">
+    <section className="bg-[#F8F8F8] py-16 cursor-pointer">
       <div className="container mx-auto px-4">
         {/* Title Section */}
         <h2 className="text-center text-3xl font-bold mb-12">
