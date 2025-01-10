@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const InspirationSection = () => {
   const slides = [
@@ -54,11 +55,11 @@ const InspirationSection = () => {
             Our designer already made a lot of beautiful prototypes of rooms
             that inspire you.
           </p>
-          <a href="*">
+          <Link href="*">
             <button className="mt-6 px-6 py-3 bg-[#B88E2F] text-white font-medium rounded-lg shadow-md hover:bg-[#a07c29] transition duration-300">
               Explore More
             </button>
-          </a>
+          </Link>
         </div>
 
         {/* Right Section: Custom Carousel */}

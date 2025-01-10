@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Banner = () => {
   return (
     <section className="relative">
@@ -22,11 +24,11 @@ const Banner = () => {
               tellus, luctus nec ullamcorper mattis.
             </p>
             {/* BUY NOW Button */}
-            <a href="*">
+            <Link to="/*">
               <button className="mt-6 px-14 py-5 bg-[#B88E2F] text-white font-medium  shadow-md hover:bg-[#a07c29] transition duration-300">
                 BUY NOW
               </button>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
