@@ -111,14 +111,16 @@ const OurProducts = ({ isShopPage }) => {
                   Add to Cart
                 </button>
                 <div className="flex space-x-6 text-white text-xl">
-                  <button className="hover:text-gray-400">
-                    <FaShareAlt />
+                  <button className="hover:text-gray-400 flex items-center">
+                    <FaShareAlt /> <span>Share</span>
                   </button>
-                  <button className="hover:text-gray-400">
+                  <button className="hover:text-gray-400 flex items-center">
                     <FaExchangeAlt />
+                    <span>Compare</span>
                   </button>
-                  <button className="hover:text-gray-400">
+                  <button className="hover:text-gray-400 flex items-center">
                     <FaHeart />
+                    <span>Like</span>
                   </button>
                 </div>
               </div>
