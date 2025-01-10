@@ -1,5 +1,6 @@
 import Banner from "./Banner";
 import BrowseTheRange from "./BrowseTheRange";
+import HashtagGallery from "./HashtagGallery";
 import InspirationSection from "./InspirationSection";
 import OurProducts from "./OurProducts";
 
@@ -10,6 +11,7 @@ const Home = () => {
       <BrowseTheRange />
       <OurProducts isShopPage={false} />
       <InspirationSection />
+      <HashtagGallery />
     </div>
   );
 };
