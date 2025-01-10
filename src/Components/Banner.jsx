@@ -22,9 +22,11 @@ const Banner = () => {
               tellus, luctus nec ullamcorper mattis.
             </p>
             {/* BUY NOW Button */}
-            <button className="mt-6 px-14 py-5 bg-[#B88E2F] text-white font-medium  shadow-md hover:bg-[#a07c29] transition duration-300">
-              BUY NOW
-            </button>
+            <a href="*">
+              <button className="mt-6 px-14 py-5 bg-[#B88E2F] text-white font-medium  shadow-md hover:bg-[#a07c29] transition duration-300">
+                BUY NOW
+              </button>
+            </a>
           </div>
         </div>
       </div>
