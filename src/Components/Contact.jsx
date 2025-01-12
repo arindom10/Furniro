@@ -1,6 +1,23 @@
 const Contact = () => {
   return (
     <section className="bg-[#f9f4ef] py-12 px-8">
+      <section className="bg-[#f9f4ef]">
+        {/* Banner Section */}
+        <div
+          className="relative bg-cover bg-center h-48 flex items-center justify-center"
+          style={{
+            backgroundImage: "url('https://i.ibb.co/QFJ78bX/Rectangle-1.png')",
+          }}
+        >
+          <div className="bg-white/70 w-full h-full absolute"></div>
+          <div className="relative z-10 text-center">
+            <h1 className="text-3xl font-bold text-gray-800">Contact</h1>
+            <p className="text-sm text-gray-600 mt-2">
+              <span>Home</span> &gt; <span>Contact</span>
+            </p>
+          </div>
+        </div>
+      </section>
       <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
         {/* Left Section */}
         <div>
