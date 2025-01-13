@@ -1,3 +1,5 @@
+import Features from "./Features";
+
 const Contact = () => {
   return (
     <section className="bg-[#f9f4ef] py-12 px-8">
@@ -154,6 +156,7 @@ const Contact = () => {
         <h3 className="text-2xl font-bold text-gray-800 mb-4">Our Location</h3>
         <div className="aspect-w-16 aspect-h-9">
           <iframe
+            title="Google Maps Location"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8376682936627!2d-122.08560828434293!3d37.42206597982313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb7302a30e1d7%3A0x3f6bb3d6b345949!2sGoogleplex!5e0!3m2!1sen!2sus!4v1647587041159!5m2!1sen!2sus"
             width="100%"
             height="450"
@@ -163,6 +166,7 @@ const Contact = () => {
           ></iframe>
         </div>
       </div>
+      <Features />
     </section>
   );
 };

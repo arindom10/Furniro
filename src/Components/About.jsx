@@ -57,7 +57,7 @@ const About = () => {
             {/* Team Member 2 */}
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
               <img
-                src="https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-6/467350778_2180399689020692_3530454598089049029_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEsCHF1H1T5YqAG0JlYLZmtRCeHTP5Ugf5EJ4dM_lSB_qJjczroKyFIlFIa5E4Cr97t9pVMWoNQZKrMkhrgA3lj&_nc_ohc=0v38vqjYYTcQ7kNvgGfRfCl&_nc_zt=23&_nc_ht=scontent.fdac14-1.fna&_nc_gid=AcG1pF9MCyIT7OFCVPMvnC6&oh=00_AYAr1-nVNf1_7lBl6nYOgFT9aPBNd2NJaq3LHL-qajvWhw&oe=6782C17C"
+                src="https://i.ibb.co.com/48f5dC9/459550245-2124760304584631-3625582919085482970-n.jpg"
                 alt="Team Member"
                 className="w-24 h-24 rounded-full mx-auto mb-4"
               />
@@ -69,7 +69,7 @@ const About = () => {
             {/* Team Member 3 */}
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
               <img
-                src="https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-6/461184129_3769873943323800_1589539590955382273_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHUUIQlh6M74MVnxRp_TQUGFuAMTB-77-0W4AxMH7vv7bPH_yzFZIJNEqSwOFVmo4VxurWBJzmRo_VEOOHz0nSa&_nc_ohc=fQ9haAeaXngQ7kNvgFHd_uS&_nc_zt=23&_nc_ht=scontent.fdac14-1.fna&_nc_gid=A7LuBbmZ4nYk30gUc5YDka7&oh=00_AYBihNY-oyjkyNAQSu2W7E8k1pcxnpnSTcX_EjPb0kFOdQ&oe=6782CBE8"
+                src="https://pbs.twimg.com/media/Ez0vtthUcAYcntH.jpg"
                 alt="Team Member"
                 className="w-24 h-24 rounded-full mx-auto mb-4"
               />
